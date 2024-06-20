@@ -8,12 +8,19 @@ The following adaptations were made to the DRAGON baseline:
 
 ```python
 model_name = "CLTL/MedRoBERTa.nl"
+```
+
+These settings were kept the same:
+
+```python
 per_device_train_batch_size = 4
 gradient_accumulation_steps = 2
 gradient_checkpointing = False
 max_seq_length = 512
 learning_rate = 1e-05
 ```
+
+Additionally, a bug with the tokenizer truncation length was fixed in the `predict_huggingface` function.
 
 **References:**
 
