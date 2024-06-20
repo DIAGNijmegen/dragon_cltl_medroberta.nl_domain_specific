@@ -1,7 +1,7 @@
 from dragon_baseline import DragonBaseline
 
 
-class DragonCltlMedroberta.NlDomainSpecific(DragonBaseline):
+class DragonCltlMedrobertaNlDomainSpecific(DragonBaseline):
     def __init__(self, **kwargs):
         """
         Adapt the DRAGON baseline to use the CLTL/MedRoBERTa.nl model.
@@ -17,4 +17,4 @@ class DragonCltlMedroberta.NlDomainSpecific(DragonBaseline):
 
 
 if __name__ == "__main__":
-    DragonCltlMedroberta.NlDomainSpecific().process()
+    DragonCltlMedrobertaNlDomainSpecific().process()
