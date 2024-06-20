@@ -46,7 +46,7 @@ dill==0.3.7
     #   datasets
     #   evaluate
     #   multiprocess
-dragon-baseline==0.2.1
+dragon-baseline==0.2.3
     # via -r requirements.in
 evaluate==0.4.2
     # via dragon-baseline
